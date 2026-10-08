@@ -1,0 +1,46 @@
+{
+  "name": "astro-agentation",
+  "version": "1.0.0",
+  "description": "Unofficial Astro integration for Agentation: click any element on your dev server, leave a note, and your coding agent reads it with the source file and line.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "astro-integration",
+    "withastro",
+    "agentation",
+    "visual-feedback",
+    "annotation",
+    "claude-code",
+    "mcp"
+  ],
+  "author": "Gautier Le Poher",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautierlp/astro-agentation.git"
+  },
+  "homepage": "https://github.com/gautierlp/astro-agentation#readme",
+  "bugs": "https://github.com/gautierlp/astro-agentation/issues",
+  "peerDependencies": {
+    "astro": ">=5.0.0"
+  },
+  "dependencies": {
+    "agentation": "^3.1.2",
+    "agentation-mcp": "^1.3.2",
+    "code-inspector-plugin": "^2.0.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
